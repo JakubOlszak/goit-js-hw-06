@@ -29,12 +29,12 @@ function onFormSubmit(event) {
 
 function checkEmail() {
   if (emailInputEl.value === "") {
-    return "Введите Email";
+    return "Input Email";
   }
 }
 
 function checkPassword() {
   if (passInputEl.value === "") {
-    return "Введите пароль";
+    return "Input password";
   }
 }
